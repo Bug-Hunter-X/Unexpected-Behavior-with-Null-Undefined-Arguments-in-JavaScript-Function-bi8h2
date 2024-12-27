@@ -1,0 +1,3 @@
+# Unexpected Behavior with Null/Undefined Arguments in JavaScript Function
+
+This repository demonstrates a common JavaScript bug related to handling null or undefined function arguments.  The `foo` function in `bug.js` does not explicitly handle these cases robustly, leading to potential unexpected behavior or errors depending on the subsequent code within the function. The `bugSolution.js` file provides a corrected version.
